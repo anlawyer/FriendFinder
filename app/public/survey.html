@@ -13,6 +13,7 @@
 <body>
 
   <div class="container">
+    <hr>
     <h2>Survey Questions</h2>
     <hr>
     <form>
@@ -26,7 +27,7 @@
       </div>
       <div class="form-group">
         <h4>Question 1</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">You rarely do something just out of sheer curiosity.</label>
         <select class="form-control" id="q1">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -38,7 +39,7 @@
       </div>
       <div class="form-group">
         <h4>Question 2</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">You find it easy to stay relaxed and focused even when there is some pressure.</label>
         <select class="form-control" id="q2">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -50,7 +51,7 @@
       </div>
       <div class="form-group">
         <h4>Question 3</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">In a discussion, truth should be more important than people’s sensitivities.</label>
         <select class="form-control" id="q3">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -62,7 +63,7 @@
       </div>
       <div class="form-group">
         <h4>Question 4</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">People can rarely upset you.</label>
         <select class="form-control" id="q4">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -74,7 +75,7 @@
       </div>
       <div class="form-group">
         <h4>Question 5</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
         <select class="form-control" id="q5">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -86,7 +87,7 @@
       </div>
       <div class="form-group">
         <h4>Question 6</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">Your mind is always buzzing with unexplored ideas and plans.</label>
         <select class="form-control" id="q6">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -98,7 +99,7 @@
       </div>
       <div class="form-group">
         <h4>Question 7</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">It is often difficult for you to relate to other people’s feelings.</label>
         <select class="form-control" id="q7">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -110,7 +111,7 @@
       </div>
       <div class="form-group">
         <h4>Question 8</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">Generally speaking, you rely more on your experience than your imagination.</label>
         <select class="form-control" id="q8">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -122,7 +123,7 @@
       </div>
       <div class="form-group">
         <h4>Question 9</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">You feel more energetic after spending time with a group of people.</label>
         <select class="form-control" id="q9">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -134,7 +135,7 @@
       </div>
       <div class="form-group">
         <h4>Question 10</h4>
-        <label for="survey">question here.</label>
+        <label for="survey">You rarely get carried away by fantasies and ideas.</label>
         <select class="form-control" id="q10">
           <option value=''>Choose one</option>
           <option value='1'>1 (Strongly disagree)</option>
@@ -210,7 +211,7 @@
             $('#resultsModal').modal('toggle');
           });
 
-          // $('.form-control').val('');
+          $('.form-control').val('');
       } else {
         alert('Please complete the survey before submitting.');
         return false;
